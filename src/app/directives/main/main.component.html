@@ -1,0 +1,27 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3 no-padding">
+            <div class="border-end bg-white" id="sidebar-wrapper">
+                <div class="sidebar-heading border-bottom bg-light">RestFul App</div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3"
+                        routerLink="users">Users</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3"
+                        routerLink="resources">Resources</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3"
+                        routerLink="register">Register
+                        User</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" routerLink=>Logout</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div id="page-content-wrapper">
+
+                <div class="container-fluid">
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

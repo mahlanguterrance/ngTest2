@@ -1,0 +1,8 @@
+<p>register works!</p>
+
+<form>
+    <input type="email" placeholder="Enter email" [(ngModel)]="user.email" />
+    <input type="text" placeholder="Enter First Name" [(ngModel)]="user.first_name">
+    <input type="text" placeholder="Enter Last Name" [(ngModel)]="user.last_name" />
+    <button type="submit" (click)="createUser()">Register User</button>
+</form>

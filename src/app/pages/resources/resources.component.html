@@ -1,0 +1,20 @@
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Color</th>
+                <th>Year</th>
+                <th>Pantone Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let res of res_details">
+                <td>{{ res.name }}</td>
+                <td [style.background-color]="res.color">{{ res.color }}</td>
+                <td>{{ res.year }}</td>
+                <td>{{ res.pantone_value }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
