@@ -8,6 +8,7 @@ import { MainComponent } from './directives/main/main.component';
 
 
 const routes: Routes = [
+  { path: 'login', component: LoginComponent },
   {
     path: '', component: MainComponent, children: [
       { path: 'register', component: RegisterComponent },
@@ -15,7 +16,6 @@ const routes: Routes = [
       { path: 'resources', component: ResourcesComponent },
     ]
   },
-  { path: 'login', component: LoginComponent },
   { path: '', redirectTo: '/users', pathMatch: 'full' }
 
 ];
