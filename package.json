@@ -1,6 +1,6 @@
 {
   "homepage": "https://mahlanguterrance.github.io/ngTest2/",
-  "name": "ng-restful-app",
+  "name": "ng-restful-app-test",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
